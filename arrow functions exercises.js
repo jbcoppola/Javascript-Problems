@@ -43,8 +43,8 @@ let doubleOddNumbers = arr => arr.filter(val => val % 2 !== 0).map(val => val * 
 
 let mapFilterAndReduce = arr => arr.map(val => val.firstName).filter(val => val.length < 5)
     .reduce((acc, next) => {
-        acc[next] = next.length
-        return acc
+        acc[next] = next.length;
+        return acc;
     }, {});
 
 /* 4 - Write a function called createStudentObj which accepts two parameters, firstName and lastName and returns an object with the keys of firstName and lastName with the values as the parameters passed to the function.
