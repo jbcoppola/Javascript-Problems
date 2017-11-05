@@ -4,13 +4,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP module", "OOP module", "{365E0E89-86AC-4E4F-BCAE-52BF05EC97EA}"
 	ProjectSection(SolutionItems) = preProject
+		constructor problems.js = constructor problems.js
+		inheritance exercise.js = inheritance exercise.js
+		prototypes exercise.js = prototypes exercise.js
+		vehicle challenge.js = vehicle challenge.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Closures, This module", "Closures, This module", "{2C2415C2-426B-4F6F-A5DB-6EB68F44F2FA}"
+	ProjectSection(SolutionItems) = preProject
+		call, apply, bind problems.js = call, apply, bind problems.js
+		closure problems.js = closure problems.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array methods", "Array methods", "{AE92E255-68AA-44BF-88AE-0BACC1E3841E}"
+	ProjectSection(SolutionItems) = preProject
+		every.js = every.js
+		filter problems.js = filter problems.js
+		filter.js = filter.js
+		forEach problems.js = forEach problems.js
 		forEach.js = forEach.js
+		map problems.js = map problems.js
+		map.js = map.js
+		reduce problems.js = reduce problems.js
+		some and every problems.js = some and every problems.js
+		some.js = some.js
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{365E0E89-86AC-4E4F-BCAE-52BF05EC97EA} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
+		{2C2415C2-426B-4F6F-A5DB-6EB68F44F2FA} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
+		{AE92E255-68AA-44BF-88AE-0BACC1E3841E} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC3B233D-670C-4BF9-8C34-8238370B2C21}
