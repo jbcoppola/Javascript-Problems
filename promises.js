@@ -29,7 +29,9 @@ function hasMostFollowers(...args) {
     })
 }
 
-/*2. Write a function called starWarsString, which accepts a number.You should then make an AJAX call to the Star Wars API (https://swapi.co/ ) to search for a specific character by the number passed to the function. Your function should return a promise that when resolved will console.log the name of the character.
+/*2. Write a function called starWarsString, which accepts a number. You should then make an AJAX call to the Star Wars API (https://swapi.co/ )
+to search for a specific character by the number passed to the function. Your function should return a promise that when
+resolved will console.log the name of the character.
 
     starWarsString(1).then(function (data) {
         console.log(data)
@@ -37,6 +39,12 @@ function hasMostFollowers(...args) {
      
     "Luke Skywalker"
 */
+
+function starWarsString(num) {
+    let url = `https://swapi.co/people/${num}`;
+    return $.getJSON(url).then((data) => console.log(data.name));
+}
+
 
 /*Bonus 1 - Using the data from the previous AJAX call above, make another AJAX request to get the first film that character is featured in and return a promise that when resolved will console.log the name of the character and the film they are featured in
 
