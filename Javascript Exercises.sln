@@ -33,6 +33,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array methods", "Array meth
 		some.js = some.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ES2015 module", "ES2015 module", "{232A3D75-80AA-47AE-A8EF-09A90C906CFE}"
+	ProjectSection(SolutionItems) = preProject
+		arrow functions exercises.js = arrow functions exercises.js
+		class keyword exercises.js = class keyword exercises.js
+		destructuring exercises.js = destructuring exercises.js
+		ES2015 methods.js = ES2015 methods.js
+		inheritance and super.js = inheritance and super.js
+		maps and sets exercises.js = maps and sets exercises.js
+		promises.js = promises.js
+		rest and spread exercises.js = rest and spread exercises.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,7 @@ Global
 		{365E0E89-86AC-4E4F-BCAE-52BF05EC97EA} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
 		{2C2415C2-426B-4F6F-A5DB-6EB68F44F2FA} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
 		{AE92E255-68AA-44BF-88AE-0BACC1E3841E} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
+		{232A3D75-80AA-47AE-A8EF-09A90C906CFE} = {EDFDA487-59F3-4F45-BBD4-D3C2C28C8CCE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC3B233D-670C-4BF9-8C34-8238370B2C21}

@@ -7,7 +7,7 @@ the username who has the most followers.
 */
 
 function hasMostFollowers(...args) {
-    let url = "https://developer.github.com/v3/users/";
+    let url = "https://api.github.com/users/";
     let argArray = [];
     args.forEach(val) {
         let promise = $.getJSON(`${url}${val}`)
